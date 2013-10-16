@@ -16,7 +16,7 @@ class UrlMappings {
 			controller = "definition"
 			action = "showProfile"
 		}
-		"/test" {
+		"/test/$action" {
 			controller = "test"
 		}
 
