@@ -16,6 +16,9 @@ class UrlMappings {
 			controller = "definition"
 			action = "showProfile"
 		}
+		"/test" {
+			controller = "test"
+		}
 
 		"/"(view:"/index")
 		"500"(view:'/error')

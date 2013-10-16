@@ -26,6 +26,7 @@
                				<li><g:link controller="help" action="profiles">Profile Definitions</g:link></li>
            				</ul>
       				</div>
+            		<p>A simple test form is available <g:link controller="test">here</g:link></p>
 	        	</div>
     		</section>
 	   	</div>

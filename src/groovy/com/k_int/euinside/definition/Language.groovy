@@ -69,4 +69,8 @@ class Language {
 	static Language getDefaultLanguage() {
 		return(defaultLanguage);
 	}
+	
+	public String getDescription() {
+		return(getJSONObject(getDefaultLanguage()).getDefinition());
+	}
 }

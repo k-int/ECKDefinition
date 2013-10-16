@@ -55,4 +55,8 @@ abstract class CodeDefinitionItemsJSON {
 			map[key] = value;
 		}
 	}
+	
+	public String getDefinition() {
+		return(definition);
+	}
 }
