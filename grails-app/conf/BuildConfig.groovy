@@ -2,10 +2,11 @@ grails.servlet.version = "2.5" // Change depending on target container complianc
 grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
-grails.project.target.level = 1.6
-grails.project.source.level = 1.6
+grails.project.target.level = 1.7
+grails.project.source.level = 1.7
 grails.server.port.http = 28081
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
+grails.project.dependency.resolver = "maven"
 
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
@@ -34,21 +35,24 @@ grails.project.dependency.resolution = {
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-
+		compile "net.sf.ehcache:ehcache-core:2.4.6"
+		
         // runtime 'mysql:mysql-connector-java:5.1.20'
     }
 
     plugins {
-        //runtime ":jquery:1.8.0"
-        runtime ":resources:1.1.6"
-
+        runtime ":jquery:1.8.3"
+        runtime ":resources:1.2"
+		runtime ":twitter-bootstrap:2.3.0"
+		runtime ":webxml:1.4.1"
+		
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
         //runtime ":cached-resources:1.0"
         //runtime ":yui-minify-resources:0.1.4"
 
-        build ":tomcat:$grailsVersion"
+        build ":tomcat:7.0.41"
 
-        compile ':cache:1.0.0'
+        compile ':cache:1.1.1'
     }
 }
