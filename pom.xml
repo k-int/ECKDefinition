@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
     <groupId>com.k-int.EUInside</groupId>
     <artifactId>ECKDefinition</artifactId>
     <packaging>grails-app</packaging>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
 
     <name>ECKDefinition</name>
     <description>ECKDefinition</description>
@@ -23,7 +21,7 @@
 		<connection>scm:git:git://github.com/k-int/ECKDefinition.git</connection>
 		<developerConnection>scm:git:https://github.com/k-int/ECKDefinition.git</developerConnection>
 		<url>https://github.com/k-int/ECKDefinition</url>
-		<tag>HEAD</tag>
+		<tag>ECKDefinition-0.1</tag>
 	</scm>
 
 	<distributionManagement>
@@ -228,7 +226,7 @@
     </dependencies>
 
     <build>
-        <pluginManagement/>
+        <pluginManagement />
 
         <plugins>
             <!-- Disables the Maven surefire plugin for Grails applications, as we have our own test runner -->
