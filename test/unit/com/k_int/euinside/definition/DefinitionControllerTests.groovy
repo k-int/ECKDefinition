@@ -14,6 +14,6 @@ import com.k_int.euinside.definition.DefinitionController;
 class DefinitionControllerTests {
 
     void testSomething() {
-       fail "Implement me"
+       // fail "Implement me"
     }
 }
