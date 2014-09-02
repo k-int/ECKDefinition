@@ -52,8 +52,8 @@
 			<g:layoutBody/>
 			<hr>
 			<footer>
-			  	<span class="pull-right">&copy; Knowledge Integration Ltd 2013</span>
-			  	<span><b>Europeana Inside ECK Definition prototype</b> <i>Simplified uploading of resources to Europeana Inside the Collections Management System</i></span>
+			  	<span class="pull-right"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png"/></span>
+			  	<span><b>Europeana Inside ECK Definition</b> <i>Simplifying the supply of resources to Europeana and other Aggregators</i></span>
 			</footer>
 		</div>
 	    <r:layoutResources/>

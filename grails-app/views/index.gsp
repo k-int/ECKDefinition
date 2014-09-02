@@ -10,7 +10,7 @@
       		<section id="main">
         		<div class="hero-unit row">
           			<div class="page-header span12">
-			            <h1>Welcome to the ECK Definition prototype module</h1>
+			            <h1>Welcome to the ECK Definition module</h1>
 			        </div>
           
           			<p>This module allows you to obtain the definitions for Profiles and Errors</p>
