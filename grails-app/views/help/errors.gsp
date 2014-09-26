@@ -2,7 +2,7 @@
 <html>
   	<head>
 	    <meta name="layout" content="bootstrap"/>
-	    <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'json_syntax.css')}" />
+		<link rel="stylesheet" href="${resource(dir: 'css', file: 'index.css')}" type="text/css">
 	    <title>ECKDefinition - Error Definitions</title>
   	</head>
 
@@ -43,7 +43,7 @@
 		    </section>
     	</div>
     
-		<script src="/ECKDefinition/js/json_syntax.js" type="text/javascript"></script>
+		<script src="/ECKDefinition/static/js/json_syntax.js" type="text/javascript"></script>
 		
 	    <script type="text/javascript">
 		    $(document).ready(function (){
